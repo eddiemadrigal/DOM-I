@@ -20,9 +20,9 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [X] Add your project manager as a reviewer on the pull-request
+* [X] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 1: Create selectors to point your data into elements
 * [ ] Create selectors by using any of the DOM element's methods
@@ -34,7 +34,7 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 * [ ] Remember to update the src attributes on images
 
 ## Task 3: Add new content
-* [ ] Change the color of the navigation text to be green.
+* [X] Change the color of the navigation text to be green.
 * [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
 * [ ] Check your work by looking at the [original html](original.html) in the browser
 
