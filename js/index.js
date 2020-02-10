@@ -48,8 +48,56 @@ for (let i = 0; i < navArr.length; i++) {
   // console.log(siteContent.nav[`nav-item-${i}`]);
   // console.log(navArr[i].innerHTML = 'ok');
   navArr[i].style.color = "green";
+  navArr[i].style.fontWeight = "bold";
   navArr[i].innerHTML = siteContent.nav[`nav-item-${i + 1}`]
 }
 
 const headerImg = document.getElementById('cta-img');
 headerImg.setAttribute('src', 'img/header-img.png');
+
+const h1Text = document.querySelector('h1');
+h1Text.innerHTML = 'dom<br>is<br>awesome';
+
+document.querySelector('button').innerHTML = 'Get Started';
+
+const topContentLeftH4 = document.querySelector('.top-content > div:nth-child(1) > h4');
+
+topContentLeftH4.innerHTML = 'Features';
+
+const topContentLeftP = document.querySelector('.top-content > div:nth-child(1) > p');
+
+topContentLeftP.style.paddingRight = '3%';
+
+topContentLeftP.innerHTML = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ea quam voluptate consequuntur adipisci a totam impedit molestiae est! Officia, nostrum in?';
+
+const topContentRightH4 = document.querySelector('.top-content > div:nth-child(2) > h4');
+
+topContentRightH4.innerHTML = 'About';
+
+const topContentRightP = document.querySelector('.top-content > div:nth-child(2) > p');
+
+topContentRightP.innerHTML = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ea quam voluptate consequuntur adipisci a totam impedit molestiae est! Officia, nostrum in?';
+
+document.getElementById('middle-img').setAttribute('src', 'img/mid-page-accent.jpg');
+
+document.querySelector('div.bottom-content > div:nth-child(1) > h4').innerHTML = 'Services';
+
+document.querySelector('div.bottom-content > div:nth-child(2) > h4').innerHTML = 'Product';
+
+document.querySelector('div.bottom-content > div:nth-child(3) > h4').innerHTML = 'Vision';
+
+document.querySelector('div.bottom-content > div:nth-child(1) > p').innerHTML = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ea quam voluptate consequuntur adipisci a totam impedit molestiae est! Officia, nostrum in';
+
+document.querySelector('div.bottom-content > div:nth-child(2) > p').innerHTML = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ea quam voluptate consequuntur adipisci a totam impedit molestiae est! Officia, nostrum in';
+
+document.querySelector('div.bottom-content > div:nth-child(3) > p').innerHTML = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ea quam voluptate consequuntur adipisci a totam impedit molestiae est! Officia, nostrum in';
+
+document.querySelector('.contact h4:nth-child(1)').innerHTML = 'Contact';
+
+document.querySelector('.contact > p:nth-child(2)').innerHTML = '123 Json Street<br>Anytown, CA US';
+
+document.querySelector('.contact > p:nth-child(3)').innerHTML = '1-800-GO-Faster';
+
+document.querySelector('.contact > p:nth-child(4)').innerHTML = 'email@email.com';
+
+document.querySelector('footer p:first-child').innerHTML = '&copy; 2020 Great Idea';
