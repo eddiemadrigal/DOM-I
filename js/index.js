@@ -50,3 +50,6 @@ for (let i = 0; i < navArr.length; i++) {
   navArr[i].style.color = "green";
   navArr[i].innerHTML = siteContent.nav[`nav-item-${i + 1}`]
 }
+
+const headerImg = document.getElementById('cta-img');
+headerImg.setAttribute('src', 'img/header-img.png');
